@@ -1,0 +1,28 @@
+body{
+	
+	background-image:url("../images/a.jpeg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+
+}
+
+h2{
+	
+	font-family:Arial;
+	color:Brown;
+	font-size:36px;
+
+}
+
+.border{
+	
+	border:2px solid blue;
+	
+}
+#tb{
+	
+	margin:25px 50px;
+	padding:25px 50px 75px 50px;
+	
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE>
+
+<html>
+
+	<head>
+	
+		<title>IWT Tutorial 2</title>
+	
+	</head>
+	
+<body>
+	
+	<h1 style="text-align:center";>IWT Workshop</h1>
+		
+	<form action="results.php" method="get">
+	
+	<fieldset>
+	 	<legend>Register Your Interest</legend>
+	
+	
+	 <p> <label for="name"> <b> Your Name : <b></label>
+	 <input type="text" id="name" required><!--The Label your name-->
+	
+	 <br>
+	
+	 <label for="email"> <b> Your Email : <b></label>
+	 <input type="email" id="email" required>
+	
+	 <br>
+	 </P>
+	 
+	 <p>
+	 <label  for="location"> <b> Your Closest Center : <b></label>
+	 <select id="location">
+		 <option value="Malabe">Malabe</option>
+		 <option value="Metro">Metro</option>
+		 <option value="Matara">Matara</option>
+	 </select>
+	 </p>
+	
+	 <span><b>Select the Session : </span></b><br>
+	 <label><input type="checkbox" name="Wsession[]" value="1" /> Introduction to Web </label> <br>
+	 <label><input type="checkbox" name="Wsession[]" value="2" /> HTML & CSS </label> <br>
+	 <label><input type="checkbox" name="Wsession[]" value="3" /> JavaScript </label> <br>
+	 <label><input type="checkbox" name="Wsession[]" value="4" />PHP &MYSQL</label> <br> 
+	
+	 <span><b>Are You a Sliit Student</b></span>
+	
+	 <label><input type="radio" name="member" value="1" /> Yes </label>
+	 <label><input type="radio" name="member" value="2" /> No </label>
+	
+	</fieldset>
+	
+		<div><input type="submit" value="Register" /> </div>
+	</form>
+	
+</body> 
+	
+</html>	
